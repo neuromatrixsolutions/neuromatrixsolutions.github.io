@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #0A2A43;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* HEADER */
+.logo {
+  width: 160px;
+  margin-top: 20px;
+}
+.tagline {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #0A5CFF;
+}
+
+/* WHAT WE DO */
+.services h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.service-grid {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service-card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #E3E8EF;
+  border-radius: 12px;
+}
+.service-icon {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+/* FOUNDER */
+.founder {
+  margin-top: 60px;
+}
+.founder-photo {
+  width: 120px;
+  border-radius: 60px;
+  margin-bottom: 15px;
+}
+.title {
+  font-weight: bold;
+  color: #0A5CFF;
+}
+.bio {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* CONTACT */
+.contact-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+.email-btn { background: #0A5CFF; }
+.whatsapp-btn { background: #25D366; }
+
+.btn img {
+  width: 18px;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #777;
+}
